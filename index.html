@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <form action="https://fom.in.ua/echo">
+      <h1>Login form</h1>
+      <fieldset>
+        <div>
+          <label for="userName">User name: </label>
+          <br />
+          <input
+            id="userName"
+            type="text"
+            nosend
+            name="username"
+            placeholder="Type your first name"
+            required
+          />
+        </div>
+        <!-- <div>
+          <label for="email">Type your email: </label>
+          <br />
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Type your email"
+            required
+          />
+        </div> -->
+        <div>
+          <label for="password">Type your password: </label>
+          <br />
+          <input
+            id="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+        </div>
+        <div>
+          <label for="message">Type your message</label>
+          <br />
+          <textarea
+            name="userMessage"
+            placeholder="Type your message"
+            id="message"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+        <br />
+        <div>
+          <h2>Type your prefered contact form</h2>
+          <label for="contactEmail">Email: </label>
+          <input
+            id="contactEmail"
+            type="qwert"
+            name="contactForm"
+            value="emailForm"
+          />
+          <br />
+          <label for="contactPhone">Phone: </label>
+          <input
+            id="contactPhone"
+            type="radio"
+            name="contactForm"
+            value="contactPhone"
+          />
+        </div>
+
+        <div>
+          <h2>Type your prefered contact form</h2>
+          <label for="contactEmail_1">Email: </label>
+          <input
+            id="contactEmail_1"
+            type="checkbox"
+            name="contactForm_1_1"
+            value="emailForm_1"
+          />
+          <br />
+          <label for="contactPhone_1">Phone: </label>
+          <input
+            id="contactPhone_1"
+            type="checkbox"
+            name="contactForm_1"
+            value="contactPhone_1"
+          />
+        </div>
+        <div>
+          <label for="car">Type your car</label>
+          <select name="typeYourCar" id="car" multiple>
+            <option value="BMV">BMV</option>
+            <option value="Mersedez">Mersedez</option>
+            <option value="Mersedezadsfasdf">Merz</option>
+          </select>
+        </div>
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
